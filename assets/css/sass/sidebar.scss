@@ -1,0 +1,46 @@
+section.sidebar {
+
+  width: 220px;
+  margin-left: 25px;
+  margin-top: 10px;
+
+  #login {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 1.286em;
+    font-weight: $bold;
+    background-color: $purple;
+    color: #fff;
+  }
+
+  #news {
+    article {
+      > h4 {
+        font-size: 1.143em;
+        margin: 0;
+        font-weight: $bold;
+      }
+
+      p {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  #archive {
+    article {
+      margin-bottom: 12px;
+      a {
+        font-size: 1.143em;
+        font-weight: $bold;
+      }
+    }
+  }
+
+
+
+}
