@@ -2,11 +2,21 @@
 
 <head>
   <meta http-equiv="content-type" content="text/html; charset=us-ascii">
+  <!-- [if IE 9]>
+  <script>
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('footer');
+  </script>
+  <![endif]-->
 
   <link rel="stylesheet" href="assets/css/sass/styles.css" />
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script type="text/javascript" src="assets/js/tabs.js"></script>
   <script type="text/javascript" src="assets/js/challenge.js"></script>
+
 </head>
 
 <body dir="auto">
@@ -106,7 +116,21 @@
 
       <section class="sidebar">
         <!-- Will bring up login modal  -->
-        <a href="#" id="login">Login</a>
+        <a href="#" id="loginDisplay" class="login">Login</a>
+
+        <div id="loginModal" class="modalWindow">
+          <div>
+            <img class="modalClose" src="/assets/img/close.png"  />
+            <h1>
+              Sign In To Your Account
+            </h1>
+            <form>
+              <p><label>Username</label><input name="userName" id="userName" type="text" /></p>
+              <p><label>Password</label><input name="password" id="password" type="text" /></p>
+              <a href="#" id="login" class="login">Login</a>
+            </form>
+          </div>
+        </div>
 
         <!-- Tab navigation for sidebar  -->
         <ul class="tabPanels">

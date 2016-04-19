@@ -15,7 +15,7 @@ ul.tabPanels{
 
   > li {
     position: relative;
-    top: 11;
+    top: 11px;
     float: left;
     border-right: $tabsBorder;
     border-top: $tabsBorder;
@@ -35,7 +35,7 @@ ul.tabPanels{
     }
 
     &.active {
-      top: 1;
+      top: 1px;
       border-bottom: 1px solid $grey;
       border-left: $tabsBorder;
       height: 45px;

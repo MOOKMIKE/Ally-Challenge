@@ -16,4 +16,14 @@ $(document).ready(function() {
   var rates = $.get("/assets/js/code-test.json", populateRates);
 
   $('.tabPanels').tabsInit();
+
+  $('#loginDisplay').on('click', function(event) {
+    event.preventDefault();
+    $('#loginModal').fadeIn('fast');
+  });
+
+  $('.modalClose').on('click', function(event) {
+    event.preventDefault();
+    $(this).parents('.modalWindow').hide();
+  });
 });
