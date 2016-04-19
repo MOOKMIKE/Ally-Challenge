@@ -11,7 +11,9 @@ $(document).ready(function() {
     });
 
   }
-  
+
   // Get json for rates table
   var rates = $.get("/assets/js/code-test.json", populateRates);
+
+  $('.tabPanels').tabsInit();
 });

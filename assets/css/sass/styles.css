@@ -261,6 +261,7 @@ ul.tabPanels {
   border-top: 1px solid #ccc;
   clear: both;
   background-color: #f5f5f5;
-  padding: 25px 15px; }
+  padding: 25px 15px;
+  display: none; }
 
 /*# sourceMappingURL=styles.css.map */
