@@ -19,6 +19,11 @@ a {
   }
 }
 
+blockquote {
+  border: none;
+  padding: 0;
+}
+
 #page > .contentWrapper {
   overflow: auto;
   margin-top: 63px;
