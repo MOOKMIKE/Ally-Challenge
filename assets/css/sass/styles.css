@@ -17,6 +17,10 @@ a {
   a:hover {
     color: #72e9da; }
 
+blockquote {
+  border: none;
+  padding: 0; }
+
 #page > .contentWrapper {
   overflow: auto;
   margin-top: 63px; }
@@ -126,7 +130,8 @@ section.sidebar {
   section.sidebar #login {
     width: 135px;
     float: right;
-    margin-right: 35px; }
+    margin-right: 35px;
+    margin-top: 5px; }
   section.sidebar #loginDisplay {
     width: 100%; }
   section.sidebar #news article > h4 {
